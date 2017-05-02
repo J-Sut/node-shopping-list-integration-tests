@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: iPW2c2oWOsmMJr/eQIUA//uhpJn8FCKIUJu9pZKjkl6i/DP0Op1J+G8bCQbA1pnlWgQrLCsOAsc6H/N2oaPap/BILdZ9i7gznuJ/ZELSPsGPdDuo2tQmlEDRzEvFY8b8H9Zzk84hrYFZWIAf+hxNkVibf8VyhaHvyGf970CGyh0/a8EAGCcwjm4t3Wcxa88dgB8fzzIT+5Rjg4iN8qonmU0rdyewRrfZMnTuQYlWljJteqboHYirDdVJkHrneU5zykZubqzCGf1SA8Dcc3+S4LXYUG5cGV3Jl16STC5N9ZT+oMk8CeSvq/Ryi/368n206VrmM1iLDtgxlYqoOV2x1uBZZpmvDKVlHRMMVwefsWgZQhENRZ2bC1RQPBZMsW9X9Ww+aJ/Y255Q8P5XDBYFUx5VGfBQIk3UcLItH73GrpBWoieEyWviVLxIA2jTCGGvzUra08SOy7RB22awAidDEa53uUlU6JKhUJYK3J2WR8MKvDe7UPIGbKn/dSH+Or+n7LBZFNl8/2VgxkWWkL1uD+dwAwBXPKrMf5yzpz1Q0vRPU8EkwZbcTTHmWrngpqmUFTQQyPUSzKbt/erCfvg2R0ty+0HGXWO+juDslqxREhYm131P34QnKCE3kLur/W/wU5mEvyZIMAJFTpH9nnzBs1BYdXct7Yprl6flYNegYJk=
+  app: powerful-lowlands-30227
+  on:
+    repo: J-Sut/node-shopping-list-integration-tests
